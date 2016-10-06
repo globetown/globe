@@ -1,11 +1,10 @@
 {
-  "name": "globe",
-  "version": "1.0.0",
+  "name": "globetown",
+  "version": "1.0.1",
   "description": "Set of command line utils for Globetown",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "patch-release": "npm version patch && npm publish && git push --follow-tags"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "bin": {
     "globe": "cli.js"
@@ -19,5 +18,10 @@
   "bugs": {
     "url": "https://github.com/globetown/globe/issues"
   },
-  "homepage": "https://github.com/globetown/globe#readme"
+  "homepage": "https://github.com/globetown/globe#readme",
+  "dependencies": {
+    "flow-bin": "^0.33.0",
+    "minimist": "^1.2.0",
+    "shelljs": "^0.7.4"
+  }
 }
