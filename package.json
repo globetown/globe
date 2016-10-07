@@ -1,6 +1,6 @@
 {
   "name": "globetown",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Set of command line utils for Globetown",
   "main": "index.js",
   "scripts": {
@@ -20,6 +20,8 @@
   },
   "homepage": "https://github.com/globetown/globe#readme",
   "dependencies": {
+    "babel-cli": "^6.16.0",
+    "babel-plugin-transform-flow-strip-types": "^6.14.0",
     "flow-bin": "^0.33.0",
     "minimist": "^1.2.0",
     "shelljs": "^0.7.4"
